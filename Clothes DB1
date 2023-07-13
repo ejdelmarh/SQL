@@ -1,0 +1,26 @@
+CREATE table Clothes (name text, quantity NUMERIC, price NUMERIC, size NUmeric, aisle NUMERIC)
+
+;INSERT INTO Clothes VALUES ("Shirts", 10, 20, 30, 1)
+;INSERT INTO Clothes VALUES ("Pants", 10, 35, 20, 3)
+;INSERT INTO Clothes VALUES ("Belts", 10, 16, 25, 5)
+;INSERT INTO Clothes VALUES ("Jammies", 10, 35, 30, 7)
+;INSERT INTO Clothes VALUES ("Socks", 10, 33, 32, 2)
+;INSERT INTO Clothes VALUES ("Undies", 10, 12, 33, 8)
+;INSERT INTO Clothes VALUES ("Jackets", 10, 21, 25, 9)
+;INSERT INTO Clothes VALUES ("Ties", 10, 35, 20, 10)
+;INSERT INTO Clothes VALUES ("Coats", 10, 12, 40, 13)
+;INSERT INTO Clothes VALUES ("Shoes", 10, 45, 35, 19)
+;INSERT INTO Clothes VALUES ("Snickers", 10, 32, 35, 15)
+;INSERT INTO Clothes VALUES ("Bandanas", 10, 5, 30, 14)
+;INSERT INTO Clothes VALUES ("Hats", 10, 10, 15, 17)
+;INSERT INTO Clothes VALUES ("Sweaters", 10, 30, 15, 4)
+;INSERT INTO Clothes VALUES ("Slacks", 10, 12, 25, 6)
+
+Display all clothes by price.
+;SELECT * FROM Clothes GROUP BY price 
+
+Display all cothes by inventory quantity.
+;SELECT SUM(quantity) FROM Clothes
+
+Display total price of purchase.
+;SELECT SUM(price) FROM Clothes
