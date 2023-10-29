@@ -34,6 +34,8 @@ ORDER BY stock_quantity desc
 
 Show statistic about item prices
 
+SELECT AVG(price)
+FROM superstore
 
 
 
