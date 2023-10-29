@@ -1,4 +1,4 @@
-CREATE table Clothes (name text, quantity NUMERIC, price NUMERIC, size NUmeric, aisle NUMERIC)
+CREATE table Clothes (name text, quantity NUMERIC, price NUMERIC, size Numeric, aisle NUMERIC)
 
 ;INSERT INTO Clothes VALUES ("Shirts", 10, 20, 30, 1)
 ;INSERT INTO Clothes VALUES ("Pants", 10, 35, 20, 3)
